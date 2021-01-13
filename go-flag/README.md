@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-    port = flag.Int("port", 8080, "HTTP server port")
+    port := flag.Int("port", 8080, "HTTP server port")
     flag.Parse()
     fmt.Printf("HTTP server port: %d\n",*port)
 }
